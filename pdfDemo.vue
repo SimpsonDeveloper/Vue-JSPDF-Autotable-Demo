@@ -1,15 +1,15 @@
 <template>
-  <v-container>
-    <v-row>
-      <v-btn @click="generatePDF1()"> Generate PDF1 </v-btn>
-    </v-row>
-    <v-row>
-      <v-btn @click="generatePDF2()"> Generate PDF2 </v-btn>
-    </v-row>
-    <v-row>
-      <v-btn @click="generatePDF3()"> Generate PDF3 </v-btn>
-    </v-row> 
-  </v-container>
+  <div>
+    <div>
+      <button type="button" @click="generatePDF1()"> Generate PDF1 </button>
+    </div>
+    <div>
+      <button type="button" @click="generatePDF2()"> Generate PDF2 </button>
+    </div>
+    <div>
+      <button type="button" @click="generatePDF3()"> Generate PDF3 </button>
+    </div> 
+  </div>
 </template>
 
 <script>
